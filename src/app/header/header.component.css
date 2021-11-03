@@ -1,0 +1,56 @@
+/* HEADER */
+header {
+    padding: 20px 0px;
+    text-align: center;
+    background-color: 	#ee1515;
+    border-bottom: 10px solid #222224;
+}
+
+#circle{
+    width: 100px;
+    height: 100px;
+    background: #f0f0f0;
+    border-radius: 50%
+    
+}
+.circles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 460px;
+    margin: auto;
+    border: 5px solid #222224;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+header h1{
+    text-transform: uppercase;
+    color: #ffcb05;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    font-family: "Pokemon Solid";
+    font-size: 55px;
+    padding-bottom: 20px;
+    -webkit-text-stroke:4px #2a75bb;
+}
+
+#smallerCircle{
+    width: 40px;
+    height: 40px;
+    background: #f0f0f0;
+    border-radius: 50%
+}
+.smallerCircles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 460px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
+    transition: box-shadow 0.4s ease-in-out;
+}
+.smallerCircles:hover{
+    box-shadow: rgba(0, 0, 0, 0.75) 0px 5px 15px;
+}

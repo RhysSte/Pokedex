@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+/* BASE */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ngx-pagination .current{
+    background: #f00000 !important;
+    border: 2px solid #222224;
+    border-radius: 25%;
+}
